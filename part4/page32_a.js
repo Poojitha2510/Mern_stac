@@ -59,7 +59,7 @@ function withdraw(id,amount){
 
         }
         else{
-            console.log("insufficient funds")
+            console.log("Insufficient balance")
             return customer
     
         }
