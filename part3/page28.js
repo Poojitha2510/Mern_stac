@@ -42,9 +42,21 @@ numbers.map((number)=>{
 
 // find method:same as the filter method instead of returning the array it returns the value
 // find used in unique numbers
- const numbers=[23,21,25,10,22]
+ /*const numbers=[23,21,25,10,22]
  const value=numbers.find((number)=>number>20)
-     console.log(value) 
+     console.log(value)*/
+     
+     
+//reduce method: used to calculate total or sum of all the elements
+/*const numbers=[23,21,22,27]
+const result=numbers.reduce((sum,number)=>sum=sum+number,0)
+console.log(result)*/
+
+//spread operater
+let numbers=[23,21,22,27]
+numbers=[...numbers,99]
+console.log(numbers)
+
 
      
 
